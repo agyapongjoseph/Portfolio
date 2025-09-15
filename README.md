@@ -1,73 +1,64 @@
-# Welcome to your Lovable project
+👋 Hi, I’m Joseph Okore Agyapong
 
-## Project info
+🚀 Software Engineer | Full-Stack Developer | Machine Learning Enthusiast
 
-**URL**: https://lovable.dev/projects/1a070a90-8dc8-4d8f-9534-b557d3c8666f
+I design and build scalable web and mobile applications using modern technologies. My work spans frontend, backend, databases, and applied machine learning, with a track record of delivering measurable results:
 
-## How can I edit this code?
+⚡ Improved billing accuracy by 40% at the Electricity Company of Ghana by building a secure meter tracking system.
 
-There are several ways of editing your application.
+📈 Boosted task allocation efficiency by 35% through a role-based database and real-time tracking.
 
-**Use Lovable**
+🎓 Increased student engagement by 30% with an interactive mathematics learning platform.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1a070a90-8dc8-4d8f-9534-b557d3c8666f) and start prompting.
+🤖 Achieved 92% accuracy in a depression detection model using NLP + Machine Learning.
 
-Changes made via Lovable will be committed automatically to this repo.
+🛠️ Tech Stack
 
-**Use your preferred IDE**
+Languages & Frameworks
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+JavaScript (ES6+), TypeScript, Python, SQL
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+React.js, React Native, Flutter, Tailwind CSS
 
-Follow these steps:
+Node.js, Express.js, REST APIs
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Databases
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+PostgreSQL, MongoDB
 
-# Step 3: Install the necessary dependencies.
-npm i
+Machine Learning / Data
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+TensorFlow, Scikit-learn, NLTK, Pandas, NumPy
 
-**Edit a file directly in GitHub**
+Data Visualization, Dashboarding
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Other Tools
 
-**Use GitHub Codespaces**
+Git/GitHub, VS Code, Jupyter Notebook, Agile
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📂 Featured Projects
 
-## What technologies are used for this project?
+🔹 Depression Detection with NLP
+ – Applied ML + NLP to social media text, achieving 92% classification accuracy.
+🔹 Decentralized Banking (ICP)
+ – Smart contracts & secure transactions on the Internet Computer Protocol.
+🔹 Interactive Mathematics Platform
+ – React/Tailwind app improving learning engagement by 30%.
+🔹 Attendance Tracking System
+ – React-based tool used by 500+ active users with secure authentication.
 
-This project is built with:
+📄 Resume & Portfolio
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📑 View My Resume
 
-## How can I deploy this project?
+🌐 Personal Portfolio
 
-Simply open [Lovable](https://lovable.dev/projects/1a070a90-8dc8-4d8f-9534-b557d3c8666f) and click on Share -> Publish.
+💼 LinkedIn
 
-## Can I connect a custom domain to my Lovable project?
+🤝 Let’s Connect
 
-Yes, you can!
+I’m passionate about using software engineering to solve real-world problems and create scalable digital solutions.
+📬 Reach me at agyapongjoseph222@gmail.com
+ or connect with me here on GitHub/LinkedIn!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+✨ Always building, always learning.
