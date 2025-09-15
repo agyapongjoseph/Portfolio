@@ -62,3 +62,10 @@ I’m passionate about using software engineering to solve real-world problems a
  or connect with me here on GitHub/LinkedIn!
 
 ✨ Always building, always learning.
+
+<img width="1919" height="946" alt="Screenshot 2025-09-15 063414" src="https://github.com/user-attachments/assets/f8073ddc-f6ee-41c4-a331-10657a4729a5" />
+<img width="1919" height="947" alt="Screenshot 2025-09-15 063441" src="https://github.com/user-attachments/assets/e99ffba0-2ed6-45a9-addb-b5cf7bfe19e8" />
+<img width="1919" height="949" alt="Screenshot 2025-09-15 063459" src="https://github.com/user-attachments/assets/ba3c16b2-c3e3-48fe-b318-3217cd6e2615" />
+<img width="1919" height="949" alt="Screenshot 2025-09-15 063626" src="https://github.com/user-attachments/assets/2d0617b5-3714-43fb-9873-ccc391f87893" />
+<img width="1919" height="948" alt="Screenshot 2025-09-15 063642" src="https://github.com/user-attachments/assets/5e237a84-e33a-41ce-a8f9-31db5fdfe9af" />
+<img width="1919" height="952" alt="Screenshot 2025-09-15 063719" src="https://github.com/user-attachments/assets/84a1b47b-bdc9-44b2-8783-eb6d42306f40" />
