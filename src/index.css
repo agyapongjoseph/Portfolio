@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Professional Blue Theme
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 220 26% 14%; /* dark navy */
+    --foreground: 210 40% 98%; /* light text */
+
+    --card: 220 26% 18%; /* dark card */
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 26% 18%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Professional Blue Palette - Dark Theme */
+    --primary: 199 89% 48%; /* #0EA5E9 - electric blue */
+    --primary-foreground: 220 26% 14%;
+
+    --secondary: 220 26% 22%; /* darker gray */
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 32 95% 44%; /* orange accent like reference */
+    --accent-foreground: 220 26% 14%;
+
+    --muted: 220 26% 22%; /* muted dark */
+    --muted-foreground: 215 20% 65%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 26% 22%;
+    --input: 220 26% 22%;
+    --ring: 199 89% 48%;
+
+    /* Portfolio Specific Colors - Dark Theme */
+    --hero-gradient-start: 220 26% 14%; /* dark navy */
+    --hero-gradient-end: 220 26% 18%; /* slightly lighter navy */
+    --section-bg: 220 26% 16%; /* section background */
+    --skill-bg: 220 26% 20%; /* skill card background */
+    
+    /* Shadows and Effects - Dark Theme */
+    --shadow-soft: 0 4px 6px -1px hsl(0 0% 0% / 0.3);
+    --shadow-elegant: 0 10px 25px -5px hsl(0 0% 0% / 0.4);
+    --glow-orange: 0 0 20px hsl(32 95% 44% / 0.4);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 215 28% 17%; /* dark slate */
+    --foreground: 210 40% 98%;
+
+    --card: 215 28% 17%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 215 28% 17%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 199 89% 48%; /* electric blue for dark mode */
+    --primary-foreground: 215 28% 17%;
+
+    --secondary: 215 25% 27%;
+    --secondary-foreground: 210 40% 98%;
+
+    --accent: 199 89% 48%;
+    --accent-foreground: 215 28% 17%;
+
+    --muted: 215 25% 27%;
+    --muted-foreground: 217 10% 64%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 25% 27%;
+    --input: 215 25% 27%;
+    --ring: 199 89% 48%;
+
+    /* Dark mode portfolio colors */
+    --hero-gradient-start: 215 28% 17%;
+    --hero-gradient-end: 214 88% 27%;
+    --section-bg: 215 25% 27%;
+    --skill-bg: 215 28% 17%;
+    
+    --shadow-soft: 0 4px 6px -1px hsl(0 0% 0% / 0.3);
+    --shadow-elegant: 0 10px 25px -5px hsl(0 0% 0% / 0.4);
+    --glow-blue: 0 0 20px hsl(199 89% 48% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Hero Section */
+  .hero-gradient {
+    background: linear-gradient(135deg, hsl(var(--hero-gradient-start)), hsl(var(--hero-gradient-end)));
+  }
+
+  /* Section Background */
+  .section-bg {
+    background-color: hsl(var(--section-bg));
+  }
+
+  /* Skill Cards */
+  .skill-card {
+    background-color: hsl(var(--skill-bg));
+    box-shadow: var(--shadow-soft);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .skill-card:hover {
+    box-shadow: var(--shadow-elegant);
+    transform: translateY(-2px);
+  }
+
+  /* Modern Animations */
+  .fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  /* Button Glow Effect */
+  .btn-glow:hover {
+    box-shadow: var(--glow-blue);
+  }
+
+  /* Modern Glass Effect */
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  /* Gradient Text */
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Floating Animation */
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* Pulse Animation */
+  .pulse-slow {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  /* Modern Button Hover Effects */
+  .modern-button {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .modern-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+  }
+
+  .modern-button:hover::before {
+    left: 100%;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
